@@ -17,6 +17,6 @@
         "target": "es2015"
     },
     "files": [
-        "src/**"
+        "src/*"
     ]
 }
