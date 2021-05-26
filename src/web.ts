@@ -148,7 +148,7 @@ export class OAuth2ClientPluginWeb extends WebPlugin implements OAuth2ClientPlug
     }
 
     async logout(options: OAuth2AuthenticateOptions): Promise<void> {
-        return new Promise<any>((resolve, reject) => {
+        return new Promise<void>((resolve, reject) => {
             localStorage.removeItem(WebUtils.getAppId(options));
             resolve();
         });
